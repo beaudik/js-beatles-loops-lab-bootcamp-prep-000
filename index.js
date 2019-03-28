@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
  var array = []
-  for (let i = 0; i < musicians.length; i++) 
+  for (let i = 0; i < musicians.length; i++)
  {
     var string = `${musicians[i]} plays ${instruments[i]}`
     array.push(string)
@@ -27,4 +27,4 @@ function iLoveTheBeatles(num) {
     num++
   } while (num < 15)
   return array
-} 
+}
